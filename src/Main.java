@@ -53,22 +53,7 @@ public class Main {
                 currentLength ++;
             }
         }
-//        for (char c : input.toCharArray()) {
-//            if (c == '(') {
-//                openCounter += 1;
-//            }
-//            else { // c = ')'
-//                if (openCounter == 0) {
-//                    maxLength = Math.max(maxLength, currentLength);
-//                    currentLength = 0;
-//                    continue;
-//                } else {
-//                    openCounter -= 1;
-//                    currentLength += 2;
-//
-//                }
-//            }
-//        }
+
         return Math.max(maxLength, currentLength);
 
     }

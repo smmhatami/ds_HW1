@@ -68,10 +68,6 @@ class Node {
         return next;
     }
 
-    public boolean isNull() {
-        return isNull;
-    }
-
     public Node getLast() {
         return last;
     }
